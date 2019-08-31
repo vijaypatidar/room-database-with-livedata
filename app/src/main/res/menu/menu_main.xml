@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.roomdatabase.activities.MainActivity">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_show_as_list"
+            android:orderInCategory="101"
+            android:title="List View" />
+        <item
+            android:id="@+id/action_show_as_grid"
+            android:checked="true"
+            android:orderInCategory="101"
+            android:title="Grid View" />
+    </group>
+</menu>
